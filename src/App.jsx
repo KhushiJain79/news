@@ -10,8 +10,8 @@ import {
 
 export default class App extends Component {
   render() {
-    const apiKey =import.meta.env.REACT_APP_NEWS_API;
-    
+    const apiKey =import.meta.env.VITE_REACT_APP_NEWS_API;
+    console.log(apiKey)
 
     return (
       <Router>
